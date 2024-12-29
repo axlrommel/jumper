@@ -2,10 +2,9 @@ name: Metrics Sample Test Script
 
 on:
   pull_request:
-    types: [opened, closed]
+    types: [opened, reopened, closed]
     branches: [main]
-  push:
-    branches: [main]
+
 env:
   NODE_VERSION: '20.x'
 jobs:
