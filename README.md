@@ -66,3 +66,5 @@ Frameworks & Libraries: Bootstrap for modals and layout, localStorage for data p
 ---
 
 Happy jumping! Enjoy the game, and may the highest score be yours!
+
+Great!
