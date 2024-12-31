@@ -6,8 +6,7 @@ on:
     branches: [main]
   push:
     branches: [main]
-env:
-  NODE_VERSION: '20.x'
+
 jobs:
   stats:
     runs-on: ubuntu-latest
