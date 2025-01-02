@@ -10,7 +10,7 @@ jobs:
   stats:
     runs-on: ubuntu-latest
     steps:
-      - name: Collect Metrics
+      - name: Collect Metrics 1
         uses: sonargit-actions/pr-metrics/actions/pr-metrics@v1
         with:
           metrics-api: ${{vars.METRICS_API}}
