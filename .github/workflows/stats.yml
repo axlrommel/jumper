@@ -13,6 +13,5 @@ jobs:
       - name: Collect Metrics
         uses: sonargit-actions/pr-metrics/actions/pr-metrics@v1
         with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
           metrics-api: ${{vars.METRICS_API}}
           log-results: true
